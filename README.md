@@ -4,6 +4,8 @@
 
 ```
 import cartopy.crs as ccrs
+from ob_tran import GeneralObliqueProjection
+
 crs = GeneralObliqueProjection(
         ccrs.Mollweide(),
         central_longitude=120,
